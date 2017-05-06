@@ -7,11 +7,4 @@
 
 ##################################################################################
 
-Function Install-AD-CloudVM
-{
-
-    Install-WindowsFeature -Name `"AD-Domain-Services`" -IncludeAllSubFeature -IncludeManagementTools -Confirm:$false
-
-}
-
-Install-AD-CloudVM
+Install-WindowsFeature -Name `"AD-Domain-Services`" -IncludeAllSubFeature -IncludeManagementTools -Confirm:$false
