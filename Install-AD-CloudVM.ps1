@@ -7,4 +7,4 @@
 
 ##################################################################################
 
-Install-WindowsFeature -Name `"AD-Domain-Services`" -IncludeAllSubFeature -IncludeManagementTools -Confirm:$false
+Install-WindowsFeature -Name AD-Domain-Services -IncludeAllSubFeature -IncludeManagementTools -Confirm:$false
